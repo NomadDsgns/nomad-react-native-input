@@ -3,9 +3,10 @@ React Native Custom Input Component by NomadDsgns
 
 ## Instructions for Use ##
 1. Clone Component to project:
-    1. 
+    - Command Line: git clone https://github.com/NomadDsgns/nomad-react-native-input.git
+    - Copy and paste code into new file
 2. Import into file where it's to be used in the project:
-    1.
+    - Add to top of file where component will be used: import NomadInput from './NomadInput.js
 3. Add component into project code and pass in required/desired props:
     - label (optional): label for the input field (ie. E-mail, Username, etc)
     - placeholder (optional): placeholder for input field that will be displayed only when field has no text entered
