@@ -12,3 +12,5 @@ React Native Custom Input Component by NomadDsgns
     - placeholder (optional): placeholder for input field that will be displayed only when field has no text entered
     - value (required): initial value passed to it using state 
     - onChange (required): handler for updating state as text is entered/removed from input field
+
+[Click here](https://reactnative.dev/docs/textinput) For a complete list of available props for react native's default TextInput component.
