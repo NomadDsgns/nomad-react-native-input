@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Input, Stylesheet } from 'react-native';
+import { View, Text, Input, StyleSheet } from 'react-native';
 
 
 export default function NomadInput({ label, placeholder, value, onChange }) {
@@ -12,7 +12,7 @@ export default function NomadInput({ label, placeholder, value, onChange }) {
             </View>);
 }
 
-const styles = Stylesheet.create({
+const styles = StyleSheet.create({
     container: {
         flexDirection: "row",
         width: 250,
