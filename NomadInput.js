@@ -1,11 +1,11 @@
 import React from 'react';
-import { View, Text, Input, StyleSheet } from 'react-native';
+import { View, Text, TextInput, StyleSheet } from 'react-native';
 
 
 export default function NomadInput({ label, placeholder, value, onChange }) {
     return (<View style={styles.container}>
                 <Text style={styles.label}>{label || ''}</Text>
-                <Input style={styles.input} 
+                <TextInput style={styles.input} 
                         value={value}
                         onChange={onChange} 
                         placeholder={placeholder || ''} />
