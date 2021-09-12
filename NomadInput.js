@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, StyleSheet } from 'react-native';
 
 
-export default function NomadInput({ label, placeholder, value, onChange, validators, isPassword }) {
+export default function({ label, placeholder, value, onChange, validators, isPassword }) {
     const [ error, setError ] = useState(false);
 
     useEffect(() => {
