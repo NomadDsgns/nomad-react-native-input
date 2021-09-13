@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, StyleSheet } from 'react-native';
 
 
-export default function({ label, placeholder, value, onChange, validators, isPassword }) {
+export default function({ label, placeholder, value, onChange, validators, isPassword, props }) {
     const [ error, setError ] = useState(false);
 
     useEffect(() => {
@@ -21,7 +21,7 @@ export default function({ label, placeholder, value, onChange, validators, isPas
                         value={value}
                         onChangeText={onChange} 
                         placeholder={placeholder || ''}
-                        secureTextEntry={isPassword || false} />
+                        {...props} />
                 <Text style={styles.error}>{error || ''}</Text>
             </View>);
 }
